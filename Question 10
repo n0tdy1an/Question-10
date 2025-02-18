@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    //Defined Variables
+    int gas = 15;
+    int travel = 375;
+    int MPG;
+    MPG = travel / gas;
+    cout<<"The Miles Per Gallon the car gets is "<<MPG<<endl;
+    return 0;
+    }
