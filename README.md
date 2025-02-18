@@ -1,1 +1,1 @@
-This program is to define th Miles Per Gallon of the car in questio 10 of the programming challenge.
+This program is to define the Miles Per Gallon of the car in question 10 of the programming challenge.
