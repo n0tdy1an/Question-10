@@ -12,10 +12,35 @@ int main()
     cout<<"How many Gallons of gas does your car have"<<endl;
     cin>>gas;
 
+
+        while(cin.fail())
+        {
+            cin.clear();
+            cin.ignore(10000,'\n');
+            cout << "This can NOT be put inputted. Please Try Again!" << endl;
+            cin >> gas;
+        }
+
+
     cout<<"How far in miles does your car drive with a full tank"<<endl;
     cin>>travel;
 
+        while(cin.fail())
+        {
+            cin.clear();
+            cin.ignore(10000,'\n');
+            cout << "This can NOT be put inputted. Please Try Again!" << endl;
+            cin >> travel;
+        }
+
+
     MPG = travel / gas;
-    cout<<"The Miles Per Gallon the car gets is "<<MPG<<endl<<endl<<endl<<"Caleb Wallice";
+    cout<<"The Miles Per Gallon the car gets is "<<MPG<<endl<<endl;;
+
+    cout<<"Caleb Wallice"<<endl;
+
+
     return 0;
     }
+
+
