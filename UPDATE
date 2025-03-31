@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    //Defined Variables
+    double gas;
+    double travel;
+    double MPG;
+
+    cout<<"How many Gallons of gas does your car have"<<endl;
+    cin>>gas;
+
+    cout<<"How far in miles does your car drive with a full tank"<<endl;
+    cin>>travel;
+
+    MPG = travel / gas;
+    cout<<"The Miles Per Gallon the car gets is "<<MPG<<endl<<endl<<endl<<"Caleb Wallice";
+    return 0;
+    }
